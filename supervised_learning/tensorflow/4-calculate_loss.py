@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Defines a function that calculates the softmax
@@ -25,4 +24,3 @@ def calculate_loss(y, y_pred):
         logits=y_pred,
     )
     return loss
-
